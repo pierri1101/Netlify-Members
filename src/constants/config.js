@@ -1,4 +1,6 @@
 import { UserRole } from "../utils/auth.roles";
+import firebase from 'firebase';
+require("firebase/firestore");
 
 export const defaultMenuType = 'menu-default' // 'menu-default', 'menu-sub-hidden', 'menu-hidden';
 export const adminRoot = '/app';
@@ -27,10 +29,12 @@ export const firebaseConfig = {
   appId: "1:792555216255:web:a31c23f5cb321802848e4a"
 };
 
+
+
 export const currentUser = {
   id: 1,
   title: 'Nome do Usuário',
-  img: '/assets/img/profiles/l-6.jpg',
+  img: '/assets/img/profiles/l-6.png',
   date: 'Last seen today 15:24',
   role: UserRole.Admin
 }

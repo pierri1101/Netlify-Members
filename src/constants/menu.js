@@ -15,31 +15,30 @@ const data = [
   id: "Assinaturas",
   icon: "simple-icon-basket-loaded",
   label: "Assinaturas",
-  to: `${adminRoot}/app/dashboards/default`,
+  to: ``,
   subs: [{
-    id: "Nome da Assinatura",
-    label: "Nome da Assinatura",
-    to: "/user",
+    id: "radar",
+    label: "Radar Técnico",
+    to: "",
     subs: [{
       icon: "simple-icon-user-following",
       label: "Comece Por aqui",
-      to: `${adminRoot}/pages/blog/blog-detail`,
+      to: `${adminRoot}/radar/comece`,
     },
     {
       icon: "simple-icon-notebook",
-      label: "Publicações",
+      label: "Primeiros Passos",
       to: `${adminRoot}/#`,
     },
     {
       icon: "iconsminds-digital-drawing",
-      label: "Carteira de Ações",
-      to: `${adminRoot}/pages/profile/portfolio
-      `,
+      label: "Módulos & Aulas",
+      to: `${adminRoot}/#`,
     },
     {
       icon: "simple-icon-graduation",
       label: "Plantão de Dúvidas",
-      to: `${adminRoot}/pages/profile/social`,
+      to: `${adminRoot}/radar/duvidas`,
     }
     ]
   },
@@ -88,7 +87,7 @@ const data = [
   id: "mochila",
   icon: "iconsminds-library",
   label: "Mochila",
-  to: `${adminRoot}/app/dashboards/default`,
+  to: ``,
   subs: [{
       icon: "simple-icon-book-open",
       label: "Sugestão de Livros",
@@ -110,6 +109,21 @@ const data = [
       to: `${adminRoot}/mochila/suporte`,
     },
     ]
-  },
+},
+
+
+// Quinto Item do Menu
+  {
+    id: "admin",
+    icon: "iconsminds-library",
+    label: "Administrativo",
+    to: ``,
+    subs: [{
+        icon: "simple-icon-book-open",
+        label: "CRUD",
+        to: `${adminRoot}/admin/index`,
+      },
+      ]
+    },
   ];
 export default data;

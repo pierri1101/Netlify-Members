@@ -6,16 +6,12 @@
           <b-row class="h-100">
             <b-colxx xxs="12" md="10" class="mx-auto my-auto">
               <b-card class="auth-card" no-body>
-                <div class="position-relative image-side">
-                  <p class="text-white h2">MAGIC IS IN THE DETAILS</p>
-                  <p class="white mb-0">Yes, it is indeed!</p>
-                </div>
-                <div class="form-side">
+                <div class="form-side"><center>
                   <router-link tag="a" to="/">
-                    <span class="logo-single" />
+                  <img src="https://danilozanini.com.br/wp-content/uploads/2020/10/logo-danilo-zanini.png" alt="logo-danilo-zanini">
                   </router-link>
-                  <h6 class="mb-4">{{ $t("pages.error-title") }}</h6>
-                  <p class="mb-0 text-muted text-small mb-0">{{ $t("pages.error-code") }}</p>
+                  <h6 class="mb-4">{{ $t("Ops, ocorreu um erro!") }}</h6>
+                  <p class="mb-0 text-muted text-small mb-0">{{ $t("Página não encontrada") }}</p>
                   <p class="display-1 font-weight-bold mb-5">404</p>
                   <b-button
                     type="submit"
@@ -23,7 +19,7 @@
                     size="lg"
                     class="btn-shadow"
                     @click="goBack"
-                  >{{ $t("pages.go-back-home") }}</b-button>
+                  >{{ $t("VOLTAR PARA PAINEL") }}</b-button></center>
                 </div>
               </b-card>
             </b-colxx>

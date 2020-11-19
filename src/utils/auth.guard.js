@@ -9,7 +9,7 @@ export default (to, from, next) => {
         if (roleArrayHierarchic.every(x => x.includes(user.role))) {
           next();
         } else {
-          next('/unauthorized')
+          next('/error')
         }
       } else {
         setCurrentUser(null);

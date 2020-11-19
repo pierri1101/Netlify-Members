@@ -1,41 +1,29 @@
 const faq = [
     {
-        question: "Nihil Anim Keffiyeh Helvetica?",
-        answer: `<strong>Moon Tempor</strong><br/>
-                    Aenean non nibh nec nunc aliquam iaculis. Ut quis suscipit nunc. Duis at lectus a est aliquam venenatis vitae eget arcu. Sed egestas felis eget convallis maximus.<br/><br/>
-                 <strong>High Life Accusamus</strong><br/>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborumeiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origincoffeenulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beerlaborewes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butchervicelomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synthnesciuntyou probably haven't heard of them accusamus labore sustainable VHS.<br/><br/>
-                 <strong>Curabitur Maximus</strong><br/>Food truck quinoa nesciunt laborumeiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origincoffeenulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beerlaborewes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butchervicelomo.<br/><br/>
-                 <ol>
-                    <li>Ut quis suscipit nunc</li>
-                    <li>Duis at lectus a est aliquam</li>
-                    <li>Aenean non nibh nec</li>
-                    <li>Non cupidatat skateboard</li>
-                 </ol>`,
+        question: "Quando você vai receber as oportunidades e análises exclusivas?",
+        answer: `<strong>Sempre que for identificada uma ação com potencial retornos interessantes, você receberá uma comunicação através do canal do Radar Técnico no Telegram.</strong><br/><br>
+        As oportunidade não tem data e hora agendadas, podem surgir a qualquer momento e é muito importante que você acompanhe o canal do Telegram para não perder nenhuma delas.<br/><br/>`,
     },
     {
-        question: "Adding Content Life Accusamus?",
-        answer: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terryrichardson ad squid. 3 wolf moon officia aute,non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborumeiusmod.Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origincoffeenulla assumenda shoreditch et.<br/><br/>Nihil anim keffiyeh helvetica, craft beerlaborewes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butchervicelomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synthnesciuntyou probably haven't heard of them accusamus labore sustainable VHS.",
+        question: "Quem vai mandar as recomendações para você?",
+        answer: `<strong>As recomendações serão feitas por mim, Danilo Zanini, investidor profissional há mais de 12 anos. Eu tenho autorização para recomendar compras e vendas de ações na Bolsa de Valores e dar opiniões sobre investimentos.
+        </strong><br/><br>
+        Eu possuo a Certificação Nacional do Profissional de Investimentos (CNPI) para desenvolver esta atividade.<br/><br/>`
     },
     {
-        question: "Aenean Researches and Experiments?",
-        answer: "Sunt aliqua put a bird on it squid single-origincoffeenulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beerlaborewes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butchervice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synthnesciuntyou probably haven't heard of them accusamus labore sustainable VHS.",
+        question: "Como você vai receber os alertas?",
+        answer: `<strong>Você receberá uma alerta de compra e venda através do Telegram.</strong><br/><br>
+        Os alertas de oportunidades são enviadas através do Canal do Radar Técnico no Telegram. Por isso é muito importante que você acesse canal para ser atualizado, se ainda não fez isso, <a href="https://desktop.telegram.org/" target="_blank">clique aqui</a><br/><br/>`
     },
     {
-        question: "Proident Excepteur Butcher?",
-        answer: " Tellus a sem condimentum, vitae convallis sapien feugiat. Aenean non nibh nec nunc aliquam iaculis. Ut quis suscipit nunc. Duis at lectus a est aliquam venenatis vitae eget arcu. Sed egestas felis eget convallis maximus.<br/><br/>Curabitur maximus, ligula vel sagittis iaculis, risus nisi tincidunt sem, ut ultricies libero nulla eu ligula. Nam ultricies mollis nulla, sed laoreet leo convallis ac. Mauris nisl risus, tincidunt ac diam aliquet, convallis pellentesque nisi. Nam sit amet libero at odio malesuada ultricies a vitae dolor. Cras in viverra felis, non consequat quam. Praesent a orci enim. Vivamus porttitor nisi at nisl egestas iaculis. Nullam commodo eget dui sollicitudin sagittis. Duis id nibh mollis, hendrerit metus consectetur, ullamcorper risus. Morbi elementum ultrices nunc, quis porta nisi ornare sit amet. ",
-    },
-    {
-        question: "Raw Denim Aesthetic?",
-        answer: "Aenean non nibh nec nunc aliquam iaculis. Ut quis suscipit nunc. Duis at lectus a est aliquam venenatis vitae eget arcu. Sed egestas felis eget convallis maximus. Curabitur maximus, ligula vel sagittis iaculis, risus nisi tincidunt sem, ut ultricies libero nulla eu ligula. Nam ultricies mollis nulla, sed laoreet leo convallis ac.<br/><br/>Mauris nisl risus, tincidunt ac diam aliquet, convallis pellentesque nisi. Nam sit amet libero at odio malesuada ultricies a vitae dolor.",
-    },
-    {
-        question: "Aliquam Venenatis Vitae?",
-        answer: "Squid single-origincoffeenulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beerlaborewes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butchervice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synthnesciuntyou probably haven't heard of them accusamus labore sustainable VHS.",
-    },
-    {
-        question: "Venenatis Vitae Eget Arcu?",
-        answer: " Tellus a sem condimentum, vitae convallis sapien feugiat. Aenean non nibh nec nunc aliquam iaculis. Ut quis suscipit nunc. Duis at lectus a est aliquam venenatis vitae eget arcu. Sed egestas felis eget convallis maximus. Curabitur maximus, ligula vel sagittis iaculis, risus nisi tincidunt sem, ut ultricies libero nulla eu ligula. Nam ultricies mollis nulla, sed laoreet leo convallis ac. Mauris nisl risus, tincidunt ac diam aliquet, convallis pellentesque nisi. Nam sit amet libero at odio malesuada ultricies a vitae dolor. Cras in viverra felis, non consequat quam. Praesent a orci enim. Vivamus porttitor nisi at nisl egestas iaculis. Nullam commodo eget dui sollicitudin sagittis. Duis id nibh mollis, hendrerit metus consectetur, ullamcorper risus. Morbi elementum ultrices nunc, quis porta nisi ornare sit amet. ",
-    }
+      question: "Por que acredito que o Radar é essencial para você?",
+      answer: `<strong>No Radar Técnico você terá os seguintes benefícios:</strong><br/><br>
+                  <ol>
+                    <li><strong>Economia de Tempo:</strong> Acompanharei o mercado e vou enviar para você as principais oportunidades para realizar operações na bolsa de valores.</li>
+                    <li><strong>Alertas detalhados:</strong> Enviarei no Canal do Telegram alertas detalhados das oportunidades que identificar</li>
+                    <li><strong>Alertas de atualizações:</strong> Enviarei no Canal do Telegram alertas detalhados das oportunidades que enviei para você anteriormente.</li>
+                 </ol>`
+  },
 ]
 
 export default faq
