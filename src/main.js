@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App'
+import Embed from 'v-video-embed'
+import Vuesax from 'vuesax'
+import 'vuesax/dist/vuesax.css'
 
 // BootstrapVue add
 import BootstrapVue from 'bootstrap-vue'
@@ -30,6 +33,8 @@ import { getCurrentLanguage } from './utils'
 
 Vue.use(BootstrapVue);
 Vue.use(VueI18n);
+// global register
+Vue.use(Embed);
 const messages = { en: en, es: es };
 const locale = getCurrentLanguage();
 const i18n = new VueI18n({

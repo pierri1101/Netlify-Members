@@ -56,11 +56,7 @@
         <b-colxx xxs="12" md="12" xl="4" class="col-left">
             <b-card class="mb-4" no-body>
                 <b-card-body class="p-0">
-                        <video-player class-name="video-js side-bar-video card-img-top"
-                        :autoplay="false" :controls="true"
-                        :controlBar="{pictureInPictureToggle: false}"
-                        poster="/assets/img/video/poster.jpg"
-                        :sources="[{ src: 'https://vimeo.com/362754811', type: 'video/mp4'}]" />
+                        <video-embed ref="vimeo" src="https://vimeo.com/439393920"></video-embed>
                 </b-card-body>
             </b-card>
                         <b-card class="mb-4" no-body>
@@ -82,7 +78,6 @@
                 <b-card-body>
                     <b-card-title>{{$t('Primeiros Passos')}} </b-card-title>
                     <div class="remove-last-border remove-last-margin remove-last-padding">
-                        <recent-post v-for="(post,postIndex) in recentPosts" :data="post" :key="`recent_post_${postIndex}`" />
                     </div>
                 </b-card-body>
             </b-card>
@@ -99,8 +94,6 @@
 import faqData from "../../../data/faq"
 import SingleLightbox from "../../../containers/pages/SingleLightbox";
 import VideoPlayer from "../../../components/Common/VideoPlayer";
-import RecentPost from "../../../components/Common/RecentPost";
-import recentPosts from '../../../data/recentPosts';
 import {
     blogData,
     blogCategories
@@ -111,11 +104,9 @@ export default {
     components: {
         "single-lightbox": SingleLightbox,
         "video-player":VideoPlayer,
-        "recent-post": recentPosts,
     },
     data() {
         return {
-            recentPosts: blogData.slice(5),
             blogCategories,
             faqData
         };

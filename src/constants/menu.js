@@ -28,12 +28,12 @@ const data = [
     {
       icon: "simple-icon-notebook",
       label: "Primeiros Passos",
-      to: `${adminRoot}/#`,
+      to: `${adminRoot}/radar/primeiros-passos`,
     },
     {
       icon: "iconsminds-digital-drawing",
       label: "Módulos & Aulas",
-      to: `${adminRoot}/#`,
+      to: `${adminRoot}/radar/modulos`,
     },
     {
       icon: "simple-icon-graduation",
@@ -113,17 +113,17 @@ const data = [
 
 
 // Quinto Item do Menu
-  {
+  /*{
     id: "admin",
-    icon: "iconsminds-library",
+    icon: "iconsminds-digital-drawing",
     label: "Administrativo",
     to: ``,
     subs: [{
-        icon: "simple-icon-book-open",
+        icon: "",
         label: "CRUD",
         to: `${adminRoot}/admin/index`,
       },
       ]
-    },
+    },*/
   ];
 export default data;

@@ -1,30 +1,27 @@
 <template>
   <b-row>
     <b-colxx xxs="12">
-      <h5 class="mb-4 card-title">{{ $t('cards.icon-card') }}</h5>
+      <h5 class="mb-4 card-title">{{ $t('Conteúdo Radar Técnico') }}</h5>
       <b-row class="icon-cards-row mb-3">
-        <b-colxx xxs="6" sm="4" md="3" lg="2">
-          <icon-card :title="$t('dashboards.pending-orders')" icon="iconsminds-clock" :value="14" />
+        <b-colxx xxs="6" sm="4" md="3" lg="3">
+          <icon-card :title="$t('Primeiros Passos')" icon="iconsminds-user" />
         </b-colxx>
-        <b-colxx xxs="6" sm="4" md="3" lg="2">
+        <b-colxx xxs="6" sm="4" md="3" lg="3">
           <icon-card
-            :title="$t('dashboards.completed-orders')"
-            icon="iconsminds-basket-coins"
-            :value="32"
+            :title="$t('Nivelamento')"
+            icon="iconsminds-optimization"
           />
         </b-colxx>
-        <b-colxx xxs="6" sm="4" md="3" lg="2">
+        <b-colxx xxs="6" sm="4" md="3" lg="3">
           <icon-card
-            :title="$t('dashboards.refund-requests')"
-            icon="iconsminds-arrow-refresh"
-            :value="74"
-          />
-        </b-colxx>
-        <b-colxx xxs="6" sm="4" md="3" lg="2">
-          <icon-card
-            :title="$t('dashboards.new-comments')"
+            :title="$t('Análises Semanais')"
             icon="iconsminds-mail-read"
-            :value="25"
+          />
+        </b-colxx>
+        <b-colxx xxs="6" sm="4" md="3" lg="3">
+          <icon-card
+            :title="$t('Aulas Módulo Bônus')"
+            icon="iconsminds-power"
           />
         </b-colxx>
       </b-row>

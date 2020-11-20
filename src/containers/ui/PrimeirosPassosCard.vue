@@ -1,8 +1,7 @@
 <template>
   <b-row>
     <b-colxx xxs="12">
-      <h1 class="mb-4 card-title">{{ $t('Primeiros Passos') }}</h1>
-     <b-row>
+      <b-row>
         <b-colxx xxs="6" xs="4" lg="3">
           <b-card class="mb-2" no-body>
             <router-link to="../radar/aula-1">

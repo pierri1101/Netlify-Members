@@ -98,9 +98,34 @@ const routes = [
               import("./views/app/radar/comece")
           },
           {
+            path: "primeiros-passos",
+            component: () =>
+              import("./views/app/radar/primeiros-passos")
+          },
+          {
             path: "duvidas",
             component: () =>
               import("./views/app/radar/duvidas")
+          },
+          {
+            path: "modulos",
+            component: () =>
+              import("./views/app/radar/modulos")
+          },
+          {
+            path: "aula-1",
+            component: () =>
+              import("./views/app/radar/aula-1")
+          },
+          {
+            path: "aula-2",
+            component: () =>
+              import("./views/app/radar/aula-2")
+          },
+          {
+            path: "aula-3",
+            component: () =>
+              import("./views/app/radar/aula-3")
           },
         ]
       },
